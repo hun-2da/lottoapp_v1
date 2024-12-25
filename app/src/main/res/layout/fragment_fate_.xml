@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menuFragmentPage.Fate_Fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="0.22"
+                android:orientation="horizontal">
+
+                <android.widget.Button
+                    android:id="@+id/button645"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/l_buttoncolor"
+                    android:fontFamily="@font/npsfont_regular"
+                    android:text="6/45 통계"
+                    android:textColor="@color/black" />
+
+                <android.widget.Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/l_buttoncolor"
+                    android:fontFamily="@font/npsfont_regular"
+                    android:text="액땜 (선행)"
+                    android:textColor="@color/black" />
+
+                <android.widget.Button
+                    android:id="@+id/button720"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/l_buttoncolor"
+                    android:fontFamily="@font/npsfont_regular"
+                    android:text="720 통계"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/grayline">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="27dp"
+                    android:fontFamily="@font/npsfont_regular"
+                    android:text="~"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toStartOf="@+id/spinner"
+                    app:layout_constraintStart_toEndOf="@+id/editText645"
+                    app:layout_constraintTop_toBottomOf="@+id/TextView645" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/grayline"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editText645">
+
+                    <ImageView
+                        android:id="@+id/image645_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/ball_icon" />
+
+                    <ImageView
+                        android:id="@+id/image645_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/ball_icon" />
+
+                    <ImageView
+                        android:id="@+id/image645_3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/ball_icon" />
+
+                    <ImageView
+                        android:id="@+id/image645_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/ball_icon" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+
+                    android:background="@drawable/grayline"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+                    <ImageView
+                        android:id="@+id/image645_5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/ball_icon" />
+
+                    <ImageView
+                        android:id="@+id/image645_6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/ball_icon" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/plus_icon" />
+
+                    <ImageView
+                        android:id="@+id/image645_7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/ball_icon" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/TextView645"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/grayline"
+                    android:maxLines="1"
+                    android:textColor="#C4000000"
+                    android:textSize="25sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/editText645"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/grayline"
+                    android:ems="10"
+                    android:fontFamily="@font/npsfont_regular"
+                    android:gravity="center"
+                    android:hint="모두선택"
+                    android:inputType="number"
+                    android:textColor="#DA000000"
+                    app:layout_constraintEnd_toStartOf="@+id/spinner"
+                    app:layout_constraintTop_toBottomOf="@+id/TextView645" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/grayline"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/TextView645" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/grayline">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/grayline"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.17"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/TextView720">
+
+                    <ImageView
+                        android:id="@+id/ball720_imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ball_icon" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="380dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/grayline"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+                    <ImageView
+                        android:id="@+id/ball720_b_imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ball_icon" />
+
+                    <ImageView
+                        android:id="@+id/ball720_b_imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ball_icon" />
+
+                    <ImageView
+                        android:id="@+id/ball720_b_imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ball_icon" />
+
+                    <ImageView
+                        android:id="@+id/ball720_b_imageView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ball_icon" />
+
+                    <ImageView
+                        android:id="@+id/ball720_b_imageView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ball_icon" />
+
+                    <ImageView
+                        android:id="@+id/ball720_b_imageView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ball_icon" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bonus720"
+                    android:layout_width="380dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/grayline"
+                    android:orientation="horizontal"
+                    android:visibility="invisible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+                    <ImageView
+                        android:id="@+id/image720_bonus1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ball_icon" />
+
+                    <ImageView
+                        android:id="@+id/image720_bonus2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ball_icon" />
+
+                    <ImageView
+                        android:id="@+id/image720_bonus3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ball_icon" />
+
+                    <ImageView
+                        android:id="@+id/image720_bonus4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ball_icon" />
+
+                    <ImageView
+                        android:id="@+id/image720_bonus5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ball_icon" />
+
+                    <ImageView
+                        android:id="@+id/image720_bonus6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ball_icon" />
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="65dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/grayline"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/TextView720" />
+
+                <EditText
+                    android:id="@+id/editText720"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="65dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/grayline"
+                    android:ems="10"
+                    android:fontFamily="@font/npsfont_regular"
+                    android:gravity="center"
+                    android:hint="모두선택"
+                    android:inputType="number"
+                    android:textColor="#DA000000"
+                    app:layout_constraintEnd_toStartOf="@+id/spinner2"
+                    app:layout_constraintTop_toBottomOf="@+id/TextView720" />
+
+                <TextView
+                    android:id="@+id/TextView720"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/grayline"
+                    android:maxLines="1"
+                    android:textColor="#C4000000"
+                    android:textSize="25sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="35dp"
+                    android:fontFamily="@font/npsfont_regular"
+                    android:text="Click"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+                    app:layout_constraintEnd_toEndOf="@+id/linearLayout3" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="67dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/npsfont_regular"
+                    android:text="~"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toStartOf="@+id/spinner2"
+                    app:layout_constraintStart_toEndOf="@+id/editText720"
+                    app:layout_constraintTop_toBottomOf="@+id/TextView720" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.25"></LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ButtonEventLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="70dp"
+            android:background="#F2FFFFFF"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/getEvent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <FrameLayout
+            android:id="@+id/close_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFEFE"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/ButtonEventLayout"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <android.widget.Button
+                android:id="@+id/Exit_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/x_icon"
+                tools:layout_editor_absoluteX="341dp" />
+        </FrameLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView_statistics_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3252837628484304/9585678534"
+            app:layout_constraintBottom_toTopOf="@+id/ButtonEventLayout"
+            app:layout_constraintEnd_toStartOf="@+id/close_layout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></com.google.android.gms.ads.AdView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

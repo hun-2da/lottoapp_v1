@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menuFragmentPage.LuckFP.Fragment720plus">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardV720_1"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="17dp"
+            android:backgroundTint="#45FFFFFF"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="77dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3">
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/grayline"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ball720_imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ball_icon" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardV720_2"
+            android:layout_width="110dp"
+            android:layout_height="417dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="17dp"
+            android:backgroundTint="#5EFFFFFF"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="77dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/grayline"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ball720_b_imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ball_icon" />
+
+                <ImageView
+                    android:id="@+id/ball720_b_imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ball_icon" />
+
+                <ImageView
+                    android:id="@+id/ball720_b_imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ball_icon" />
+
+                <ImageView
+                    android:id="@+id/ball720_b_imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ball_icon" />
+
+                <ImageView
+                    android:id="@+id/ball720_b_imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ball_icon" />
+
+                <ImageView
+                    android:id="@+id/ball720_b_imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ball_icon" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <android.widget.Button
+            android:id="@+id/start720_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/key_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/cardV720_2"
+            app:layout_constraintStart_toEndOf="@+id/cardV720_1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3" />
+
+        <ScrollView
+            android:id="@+id/scrolltextView2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginBottom="97dp"
+            android:background="@drawable/grayline"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardV720_2">
+
+            <TextView
+                android:id="@+id/log_textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#C6575757"
+                android:textSize="20sp" />
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="450dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:scrollbars="none"
+            >
+
+            <TextView
+                android:id="@+id/textView_Ani2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#6F575656"
+                android:textSize="20sp" />
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
